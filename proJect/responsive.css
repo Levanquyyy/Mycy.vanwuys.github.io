@@ -3,7 +3,7 @@
 }
 @media (min-width: 739px) and (max-width: 1023px) {
 }
-@media (max-width: 739px) {
+@media (max-width: 720px) {
   #nav {
     padding: 1.5rem 1rem;
   }
@@ -83,7 +83,20 @@
     margin-right: -4rem;
   }
 }
+
 @media screen and (max-width: 420px) {
+  .img-work {
+    height: 37.5rem;
+  }
+  .bio {
+    width: 18.3rem;
+  }
+  .projects-container {
+    width: 18.875rem;
+  }
+  .ConTact-form-container {
+    max-width: 17.8rem;
+  }
   .conTent img {
     height: 37.5rem;
     width: 23rem;
@@ -97,18 +110,7 @@
   .ConTact-form-container {
     width: 23.5rem;
   }
-}
-@media screen and (max-width: 420px) {
-  .img-work {
-    height: 37.5rem;
-  }
-  .bio {
-    width: 18.3rem;
-  }
-  .projects-container {
-    width: 18.875rem;
-  }
-  .ConTact-form-container {
-    max-width: 17.8rem;
+  .projects-card {
+    margin-right: 2rem;
   }
 }
